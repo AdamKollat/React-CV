@@ -1,3 +1,45 @@
-.profile {
-    width: 300px;
+body {
+    background: #f0f0f0;
+}
+
+.container {
+   padding: 3%;
+}
+
+.aside {
+    background: #fff;
+    float: left;
+    width: 20%;
+    padding: 1%;
+    text-align: center;
+}
+
+.main {
+    background: #fff;
+    float: right;
+    width: 75%;
+    padding: 1.2%;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.grey {
+    color: grey;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    background-color: #5cb85c;
+    padding: 0.2em 0.6em 0.3em;
+    color: white;
+    font-weight: bold;
+    border-radius: 0.25em;
+    margin: 0.2em;
 }

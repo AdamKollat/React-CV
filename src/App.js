@@ -1,17 +1,21 @@
-import './App.css';
+import './custom.css';
 import Profile from './Components/aside';
 import About from './Components/about';
+import WorkExperience from './Components/work_experience';
+import Skills from './Components/skills';
 
 function App() {
   return (
-    <div>
-    <aside>
+    <div class='container'>
+      <div class='aside'>
       <Profile />
-      </aside>
-      <main>
-        <About />
-      </main>
       </div>
+      <div class='main'>
+      <About /> 
+      <WorkExperience />  
+      <Skills />
+      </div>   
+    </div>
   );
 }
 
