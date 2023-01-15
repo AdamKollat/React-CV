@@ -1,6 +1,6 @@
 const Skills = () => {
     return(
-        <div>
+        <div class='section'>
             <h2 class='text-uppercase grey'>Skills</h2>
             <hr></hr>
             <ul>

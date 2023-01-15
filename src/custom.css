@@ -1,9 +1,11 @@
 body {
     background: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
 }
 
 .container {
-   padding: 3%;
+   padding: 5% 15%;
 }
 
 .aside {
@@ -19,6 +21,10 @@ body {
     float: right;
     width: 75%;
     padding: 1.2%;
+}
+
+.section {
+    margin-bottom: 4rem;
 }
 
 .text-uppercase {
@@ -43,3 +49,4 @@ li {
     border-radius: 0.25em;
     margin: 0.2em;
 }
+

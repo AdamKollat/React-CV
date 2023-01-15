@@ -3,6 +3,7 @@ import Profile from './Components/aside';
 import About from './Components/about';
 import WorkExperience from './Components/work_experience';
 import Skills from './Components/skills';
+import Education from './Components/education';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About /> 
       <WorkExperience />  
       <Skills />
+      <Education />
       </div>   
     </div>
   );
