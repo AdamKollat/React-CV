@@ -1,5 +1,5 @@
 import './custom.css';
-import Profile from './Components/aside';
+import Profile from './Components/profile';
 import About from './Components/about';
 import WorkExperience from './Components/work_experience';
 import Skills from './Components/skills';
