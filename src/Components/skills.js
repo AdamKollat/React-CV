@@ -1,7 +1,7 @@
 const Skills = () => {
     return(
         <div class='section'>
-            <h2 class='text-uppercase grey'>Skills</h2>
+            <h3 class='text-uppercase grey'>Skills</h3>
             <hr></hr>
             <ul>
                 <li>HTML</li>
